@@ -19,3 +19,8 @@
 
 - Al inicio, dejé `useEffect` sin cerrar y escribí `../api/games/` como código suelto. Eso impedía que el archivo compilara y no enviaba una petición al servidor.
 - Para corregirlo, cerré el efecto y usé `fetch('/api/games')`. Después convertí la respuesta con `response.json()` y guardé los datos con `setGames(data)`. Comprobé en la página que el estado contiene ocho juegos.
+
+### Selección de juegos recientes
+
+- Al inicio, intenté crear `recentGames` como una función dentro de `Home` y puse `export default` dentro del componente. Eso produjo un error de sintaxis; además, las tarjetas seguían usando directamente `games`.
+- Para corregirlo, declaré `recentGames` como una lista antes del `return` y usé `recentGames.map(...)` para mostrar las tarjetas. Primero tomé las últimas tres posiciones, pero eso dependía del orden del JSON; después copié `games`, lo ordené por `createdAt` de más nuevo a más antiguo y tomé los primeros tres. Dejé `export default Home` al final del archivo.

@@ -11,7 +11,9 @@ const Home = () => {
       .then((response) => response.json())
       .then((data) => setGames(data))
   }, [])
-
+  const recentGames = [...games]
+    .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt))
+    .slice(0, 3)
   return (
     <main className="min-h-screen bg-[#0b0b0f]">
       <div className="mx-auto max-w-5xl px-5 pb-16">
@@ -46,12 +48,15 @@ const Home = () => {
 
         <section className="mt-14">
           <h2 className="text-2xl font-bold text-white">Juegos recientes</h2>
-          {games.map((game) => (
-            <p key={game.id}>{game.title}</p>
-          ))}
-          <p className="mt-4 rounded-xl border border-purple-900 p-6 text-gray-400">
-            Aquí aparecerán los tres juegos añadidos más recientemente.
-          </p>
+          <div className="mt-5 grid gap-5 md:grid-cols-3">
+            {recentGames.map((game) => (
+              <Card key={game.id}>
+                <h3>{game.title}</h3>
+                <p>{game.category}</p>
+                <p className="mt-2">Dificultad: {game.difficulty}</p>
+              </Card>
+            ))}
+          </div>
         </section>
       </div>
     </main>
