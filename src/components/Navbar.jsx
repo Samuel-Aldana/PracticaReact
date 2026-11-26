@@ -1,29 +1,27 @@
 import { NavLink } from 'react-router'
 
 const Navbar = () => {
+  const linkClass = ({ isActive }) =>
+    isActive
+      ? 'text-purple-400 font-semibold'
+      : 'text-gray-300 hover:text-purple-400'
+
   return (
-    <>
-      <nav>
-        <NavLink
-          to="/games"
-          className={({ isActive }) =>
-            isActive ? 'bg-black text-white' : 'bg-red-500 text-black'
-          }
-        >
-          Games
+    <nav className="border-b border-purple-900 bg-black">
+      <div className="mx-auto flex max-w-5xl items-center justify-between px-5 py-4">
+        <NavLink to="/" className="text-xl font-bold text-white">
+          WikiGame
         </NavLink>
-        <NavLink
-          to="/"
-          className={({ isActive }) =>
-            isActive
-              ? 'bg-blue-600 text-white shadow-sm'
-              : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'
-          }
-        >
-          Inicio
-        </NavLink>
-      </nav>
-    </>
+        <div className="flex gap-6 text-sm">
+          <NavLink to="/" end className={linkClass}>
+            Inicio
+          </NavLink>
+          <NavLink to="/games" className={linkClass}>
+            Juegos
+          </NavLink>
+        </div>
+      </div>
+    </nav>
   )
 }
 
