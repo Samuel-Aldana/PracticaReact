@@ -1,0 +1,431 @@
+{
+  "games": [
+    {
+      "id": "1",
+      "title": "Hollow Knight",
+      "category": "Metroidvania / Acción",
+      "difficulty": "Alta",
+      "releaseYear": 2017,
+      "mode": "Un jugador",
+      "gameType": "Juego con campaña",
+      "description": "Explora un vasto reino subterráneo en ruinas habitado por insectos y héroes, desbloqueando habilidades para acceder a nuevas zonas y descubrir antiguos secretos.",
+      "unlockables": [
+        {
+          "name": "Capa de Ala de Polilla (Dash)",
+          "accessType": "Gratis",
+          "location": "Sendero Verde",
+          "paymentOptions": [],
+          "purpose": "Permite impulsarse rápidamente hacia adelante en el aire o en el suelo para esquivar ataques y cruzar abismos.",
+          "steps": [
+            "Derrota al Falso Caballero en Cruces Olvidados para obtener el Blasón de la Ciudad y acceder al Espíritu Vengativo.",
+            "Dirígete al oeste hacia el Sendero Verde y avanza hasta encontrar a Hornet.",
+            "Derrota a Hornet en combate para recoger la Capa de Ala de Polilla del suelo."
+          ]
+        },
+        {
+          "name": "Amuleto: Brújula Caprichosa",
+          "accessType": "Gratis (moneda del juego)",
+          "location": "Tienda de Iselda en Bocasucia",
+          "paymentOptions": [
+            {
+              "isPremium": false,
+              "requirements": [
+                {
+                  "amount": 220,
+                  "currency": "Geo"
+                }
+              ]
+            }
+          ],
+          "purpose": "Muestra tu ubicación exacta en el mapa en tiempo real.",
+          "steps": [
+            "Reúne al menos 220 Geo derrotando enemigos en Cruces Olvidados.",
+            "Regresa a Bocasucia y entra en la tienda de Iselda.",
+            "Compra la Brújula Caprichosa por 220 Geo."
+          ]
+        }
+      ],
+      "favorite": true,
+      "createdAt": "2026-11-24T08:15:00-05:00",
+      "author": {
+        "name": "Ari Gibson y William Pellen",
+        "bio": "Desarrolladores independientes australianos cofundadores del estudio, encargados del diseño, arte y programación principal.",
+        "company": "Team Cherry"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Grand Theft Auto VI",
+      "category": "Acción / Mundo abierto",
+      "difficulty": "Media",
+      "releaseYear": 2026,
+      "mode": "Ambos",
+      "gameType": "Juego con campaña y modo en línea",
+      "description": "Ambientado en el estado ficticio de Leonida y la vibrante Vice City, sigue la historia criminal de Lucía y su compañero mientras navegan por atracos, alianzas y persecuciones en un mundo abierto masivo.",
+      "unlockables": [
+        {
+          "name": "Vehículo Deportivo Banshee GTS",
+          "accessType": "Gratis (moneda del juego)",
+          "location": "Concesionario Legendary Motorsport",
+          "paymentOptions": [
+            {
+              "isPremium": false,
+              "requirements": [
+                {
+                  "amount": 1250000,
+                  "currency": "USD (juego)"
+                }
+              ]
+            }
+          ],
+          "purpose": "Automóvil de alta velocidad ideal para escapar de persecuciones policiales y competir en carreras callejeras.",
+          "steps": [
+            "Completa las misiones iniciales de la historia en Leonida para desbloquear el acceso libre al mapa y al teléfono del juego.",
+            "Realiza el primer atraco principal junto a Lucía para reunir $1,250,000.",
+            "Abre el navegador del teléfono, ingresa a Legendary Motorsport y compra el Banshee GTS."
+          ]
+        },
+        {
+          "name": "Propiedad: Club Nocturno Ocean View",
+          "accessType": "Gratis (moneda del juego)",
+          "location": "Distrito de Ocean Beach, Vice City",
+          "paymentOptions": [
+            {
+              "isPremium": false,
+              "requirements": [
+                {
+                  "amount": 2400000,
+                  "currency": "USD (juego)"
+                }
+              ]
+            }
+          ],
+          "purpose": "Genera ingresos pasivos diarios y desbloquea misiones secundarias de gestión y lavado de dinero.",
+          "steps": [
+            "Reúne $2,400,000 completando atracos y actividades en Vice City.",
+            "Dirígete al marcador de propiedades en el distrito de Ocean Beach.",
+            "Adquiere el Club Nocturno Ocean View para activar sus misiones de gestión."
+          ]
+        }
+      ],
+      "favorite": true,
+      "createdAt": "2026-11-24T09:05:00-05:00",
+      "author": {
+        "name": "Sam Houser y equipo de desarrollo",
+        "bio": "Productor y cofundador reconocido por dirigir la evolución de los mundos abiertos modernos en la industria de los videojuegos.",
+        "company": "Rockstar Games"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Elden Ring",
+      "category": "RPG de acción / Souls-like",
+      "difficulty": "Alta",
+      "releaseYear": 2022,
+      "mode": "Ambos",
+      "gameType": "Juego con campaña",
+      "description": "Recorre las Tierras Intermedias en un mundo abierto oscuro y desafiante, derrotando semidioses para reunir las runas del Círculo de Elden.",
+      "unlockables": [
+        {
+          "name": "Silbato de corcel espectral (Torrentera)",
+          "accessType": "Gratis",
+          "location": "Ruinas de la Puerta, Necrolimbo",
+          "paymentOptions": [],
+          "purpose": "Permite invocar a tu montura espectral para desplazarte rápido y realizar dobles saltos.",
+          "steps": [
+            "Explora Necrolimbo y descubre al menos tres lugares de Gracia distintos.",
+            "Descansa en el tercer lugar de Gracia (como las Ruinas de la Puerta) para activar la cinemática con Melina.",
+            "Acepta su trato para recibir el silbato de corcel espectral."
+          ]
+        },
+        {
+          "name": "Ceniza de guerra: Lágrima mimética",
+          "accessType": "Gratis",
+          "location": "Nokron, la Ciudad Eterna",
+          "paymentOptions": [],
+          "purpose": "Invoca un clon tuyo con tu mismo equipamiento y habilidades para ayudarte en combate.",
+          "steps": [
+            "Derrota al jefe Radahn Azote de las Estrellas en Caelid para abrir el cráter hacia Nokron.",
+            "Desciende por el cráter en Necrolimbo y avanza por Nokron hasta el Terreno Sagrado de la Noche.",
+            "Usa una Llave de espada pétrea en la estatua de diablillo para abrir el cofre que contiene la Lágrima mimética."
+          ]
+        }
+      ],
+      "favorite": true,
+      "createdAt": "2026-11-24T09:40:00-05:00",
+      "author": {
+        "name": "Hidetaka Miyazaki",
+        "bio": "Director y diseñador de videojuegos japonés reconocido por crear la fórmula Souls y dirigir títulos de fantasía oscura.",
+        "company": "FromSoftware"
+      }
+    },
+    {
+      "id": "4",
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "category": "Aventura / Mundo abierto",
+      "difficulty": "Media",
+      "releaseYear": 2023,
+      "mode": "Un jugador",
+      "gameType": "Juego con campaña",
+      "description": "Explora las tierras de Hyrule, las islas celestiales y el subsuelo mientras construyes vehículos y armas con habilidades ancestrales para rescatar a Zelda.",
+      "unlockables": [
+        {
+          "name": "Habilidad: Ultramano",
+          "accessType": "Gratis",
+          "location": "Santuario de Ukouh, Gran Isla de los Albores",
+          "paymentOptions": [],
+          "purpose": "Permite agarrar, rotar y unir objetos del entorno para construir puentes, balsas o máquinas.",
+          "steps": [
+            "Inicia la aventura en la Gran Isla de los Albores y dirígete al Santuario de Ukouh.",
+            "Interactúa con el altar al entrar al santuario para recibir la habilidad Ultramano.",
+            "Completa los acertijos del santuario usando la habilidad para conservarla."
+          ]
+        },
+        {
+          "name": "Paravela",
+          "accessType": "Gratis",
+          "location": "Fuerte Vigía, Centro de Hyrule",
+          "paymentOptions": [],
+          "purpose": "Permite planear por los aires desde grandes alturas sin sufrir daño por caída.",
+          "steps": [
+            "Termina los santuarios iniciales de la Gran Isla de los Albores y salta hacia la superficie de Hyrule.",
+            "Dirígete al Fuerte Vigía y habla con Prunia.",
+            "Activa la primera atalaya de mapeo siguiendo sus instrucciones para recibir la Paravela."
+          ]
+        }
+      ],
+      "favorite": true,
+      "createdAt": "2026-11-24T10:12:00-05:00",
+      "author": {
+        "name": "Hidemaro Fujibayashi",
+        "bio": "Director de videojuegos japonés encargado de las entregas modernas de mundo abierto de la saga The Legend of Zelda.",
+        "company": "Nintendo"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Minecraft",
+      "category": "Sandbox / Supervivencia",
+      "difficulty": "Baja",
+      "releaseYear": 2011,
+      "mode": "Ambos",
+      "gameType": "Juego sandbox",
+      "description": "Construye, explora y sobrevive en mundos generados proceduralmente compuestos por bloques, recolectando recursos para fabricar herramientas y enfrentar criaturas.",
+      "unlockables": [
+        {
+          "name": "Élitros (Elytra)",
+          "accessType": "Gratis",
+          "location": "Barcos del End, dimensión del End",
+          "paymentOptions": [],
+          "purpose": "Permiten planear y volar por el mundo cuando se combinan con cohetes de fuegos artificiales.",
+          "steps": [
+            "Construye un portal al Nether, consigue varas de blaze y combínalas con perlas de Ender para crear ojos de Ender.",
+            "Encuentra la fortaleza del End, activa el portal y derrota al Dragón del End.",
+            "Cruza el portal de salida hacia las islas exteriores del End, localiza un barco flotante y recoge los Élitros del marco."
+          ]
+        },
+        {
+          "name": "Pico de Diamante",
+          "accessType": "Gratis (fabricación)",
+          "location": "Mesa de trabajo (con materiales de cuevas)",
+          "paymentOptions": [
+            {
+              "isPremium": false,
+              "requirements": [
+                {
+                  "amount": 3,
+                  "currency": "Diamantes"
+                },
+                {
+                  "amount": 2,
+                  "currency": "Palos"
+                }
+              ]
+            }
+          ],
+          "purpose": "Herramienta duradera necesaria para picar obsidiana y minerales avanzados.",
+          "steps": [
+            "Mina en capas profundas (nivel Y -58) hasta encontrar al menos 3 menas de diamante.",
+            "Reúne madera para fabricar 2 palos en una mesa de trabajo.",
+            "Coloca los 3 diamantes en la fila superior y los 2 palos en el centro de la mesa de trabajo para crear el pico."
+          ]
+        }
+      ],
+      "favorite": false,
+      "createdAt": "2026-11-24T10:45:00-05:00",
+      "author": {
+        "name": "Markus Persson y Jens Bergensten",
+        "bio": "Creador original y diseñador principal que transformaron un proyecto independiente en el videojuego más vendido de la historia.",
+        "company": "Mojang Studios"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Baldur's Gate 3",
+      "category": "RPG / Estrategia por turnos",
+      "difficulty": "Alta",
+      "releaseYear": 2023,
+      "mode": "Ambos",
+      "gameType": "Juego con campaña",
+      "description": "Reúne a un grupo de héroes infectados por un parásito mental en los Reinos Olvidados y toma decisiones que alteran por completo la narrativa y el combate táctico.",
+      "unlockables": [
+        {
+          "name": "Espada de la Llama Eterna",
+          "accessType": "Gratis",
+          "location": "Nave Nautiloide (Prólogo)",
+          "paymentOptions": [],
+          "purpose": "Espada a dos manos que inflige daño adicional de fuego desde el inicio de la partida.",
+          "steps": [
+            "Durante el prólogo en el Nautiloide, prepara el conjuro 'Ordenar: Soltar' con Corazón Sombrío.",
+            "Lanza el conjuro sobre el Comandante Zhalk durante el combate en el puente.",
+            "Recoge la Espada de la Llama Eterna del suelo antes de interactuar con el transpondedor para escapar."
+          ]
+        },
+        {
+          "name": "Tomo: Nigromancia de Thay",
+          "accessType": "Gratis",
+          "location": "Sótano de la Aldea Marchita, Acto 1",
+          "paymentOptions": [],
+          "purpose": "Otorga bonificaciones permanentes a las tiradas de salvación de sabiduría y permite invocar necrófagos.",
+          "steps": [
+            "En el Acto 1, explora el sótano del boticario en la Aldea Marchita y supera la prueba del espejo parlante.",
+            "Recoge el libro en la cámara secreta detrás de la puerta.",
+            "Encuentra la Amatista Oscura en las cuevas de las arañas cercanas e insértala en el libro para desbloquear su poder."
+          ]
+        }
+      ],
+      "favorite": true,
+      "createdAt": "2026-11-24T11:20:00-05:00",
+      "author": {
+        "name": "Swen Vincke",
+        "bio": "Fundador y director creativo belga especializado en juegos de rol profundos basados en sistemas de mesa.",
+        "company": "Larian Studios"
+      }
+    },
+    {
+      "id": "7",
+      "title": "Cyberpunk 2077",
+      "category": "RPG de acción / Ciencia ficción",
+      "difficulty": "Media",
+      "releaseYear": 2020,
+      "mode": "Un jugador",
+      "gameType": "Juego con campaña",
+      "description": "Conviértete en V, un mercenario cibermejorado en la metrópolis futurista de Night City, mientras luchas por sobrevivir con un biochip experimental en tu cabeza.",
+      "unlockables": [
+        {
+          "name": "Cuchillas Mantis",
+          "accessType": "Gratis (moneda del juego)",
+          "location": "Clínicas de Matasanos en Night City",
+          "paymentOptions": [
+            {
+              "isPremium": false,
+              "requirements": [
+                {
+                  "amount": 15000,
+                  "currency": "Eurodólares"
+                }
+              ]
+            }
+          ],
+          "purpose": "Implante cibernético en los brazos que despliega cuchillas letales para el combate cuerpo a cuerpo.",
+          "steps": [
+            "Completa contratos y misiones secundarias para subir tu reputación callejera y ahorrar al menos 15,000 eurodólares.",
+            "Visita a cualquier Matasanos en Night City.",
+            "Selecciona la ranura de cibernética de brazos e instala las Cuchillas Mantis."
+          ]
+        },
+        {
+          "name": "Vehículo: Rayfield Caliburn (Negro)",
+          "accessType": "Gratis",
+          "location": "Túnel en las Badlands",
+          "paymentOptions": [],
+          "purpose": "El automóvil más rápido del juego, ideal para recorrer Night City y las Badlands.",
+          "steps": [
+            "Completa la misión principal 'Ghost Town' junto a Panam Palmer.",
+            "Espera 24 horas dentro del juego.",
+            "Regresa al túnel donde enfrentaste a Nash en las Badlands y abre el contenedor azul para reclamar el vehículo."
+          ]
+        }
+      ],
+      "favorite": false,
+      "createdAt": "2026-11-24T11:55:00-05:00",
+      "author": {
+        "name": "Adam Badowski",
+        "bio": "Director de videojuegos polaco líder en el desarrollo de RPGs narrativos de alto presupuesto.",
+        "company": "CD Projekt Red"
+      }
+    },
+    {
+      "id": "8",
+      "title": "Valorant",
+      "category": "Shooter táctico / FPS",
+      "difficulty": "Alta",
+      "releaseYear": 2020,
+      "mode": "Multijugador",
+      "gameType": "Juego por servicio",
+      "description": "Compite en partidas 5v5 por rondas combinando disparos de precisión letal con habilidades únicas de agentes para plantar o desactivar la Spike.",
+      "unlockables": [
+        {
+          "name": "Agente: Reyna",
+          "accessType": "Gratis (moneda del juego) o de pago",
+          "location": "Tienda de Agentes",
+          "paymentOptions": [
+            {
+              "isPremium": false,
+              "requirements": [
+                {
+                  "amount": 8000,
+                  "currency": "Créditos Kingdom"
+                }
+              ]
+            },
+            {
+              "isPremium": true,
+              "requirements": [
+                {
+                  "amount": 1000,
+                  "currency": "VP"
+                }
+              ]
+            }
+          ],
+          "purpose": "Agente duelista capaz de curarse o volverse invulnerable tras eliminar enemigos.",
+          "steps": [
+            "Juega partidas rápidas o competitivas y completa misiones diarias para acumular 8,000 Créditos Kingdom.",
+            "Abre la pestaña de Agentes en el menú principal y selecciona a Reyna.",
+            "Haz clic en desbloquear usando tus Créditos Kingdom (o 1,000 VP si prefieres comprarla)."
+          ]
+        },
+        {
+          "name": "Diseño de arma: Vandal Saqueador",
+          "accessType": "De pago",
+          "location": "Tienda rotatoria diaria",
+          "paymentOptions": [
+            {
+              "isPremium": true,
+              "requirements": [
+                {
+                  "amount": 1775,
+                  "currency": "VP"
+                }
+              ]
+            }
+          ],
+          "purpose": "Modifica la apariencia, sonido de disparo y animación de remate del rifle Vandal.",
+          "steps": [
+            "Recarga al menos 1,775 Valorant Points (VP) en la tienda oficial del juego.",
+            "Revisa la tienda rotatoria diaria cada 24 horas.",
+            "Cuando aparezca la Vandal Saqueador en tu rotación, selecciónala y cómprala."
+          ]
+        }
+      ],
+      "favorite": false,
+      "createdAt": "2026-11-24T12:30:00-05:00",
+      "author": {
+        "name": "Joe Ziegler",
+        "bio": "Diseñador de videojuegos estadounidense que dirigió la creación y el lanzamiento inicial del shooter competitivo.",
+        "company": "Riot Games"
+      }
+    }
+  ]
+}

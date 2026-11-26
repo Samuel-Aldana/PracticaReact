@@ -25,3 +25,18 @@ dist-ssr
 .env
 .env.*
 
+# Resultado de npm run build
+dist
+dist-ssr
+
+# Variables de entorno y secretos
+.env
+.env.*
+
+# Registros
+*.log
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
